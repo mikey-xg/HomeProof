@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>家保盒 隐私政策</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    padding: 20px 18px calc(40px + env(safe-area-inset-bottom)) 18px;
+    font: -apple-system-body, system-ui, "PingFang SC", sans-serif;
+    line-height: 1.65;
+    color: #1c1c1e;
+    background: #ffffff;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1 { font-size: 1.55rem; margin: 0 0 4px; letter-spacing: -0.01em; }
+  h2 { font-size: 1.12rem; margin: 1.8em 0 0.4em; letter-spacing: -0.01em; }
+  p, li { font-size: 1rem; color: #1c1c1e; }
+  .meta { color: #8e8e93; font-size: 0.85rem; margin: 0 0 1.2em; }
+  .lead { color: #3a3a3c; }
+  ul { padding-left: 1.2em; }
+  li { margin: 0.3em 0; }
+  strong { font-weight: 600; }
+  .callout {
+    background: #f2f7ff; border: 1px solid #d6e4ff; border-radius: 12px;
+    padding: 14px 16px; margin: 1.2em 0; color: #1c1c1e;
+  }
+  a { color: #007aff; text-decoration: none; }
+  hr { border: none; border-top: 1px solid #e5e5ea; margin: 2em 0; }
+  footer { color: #8e8e93; font-size: 0.82rem; margin-top: 2.5em; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; background: #000000; }
+    p, li, h1, h2 { color: #f2f2f7; }
+    .lead { color: #c7c7cc; }
+    .meta, footer { color: #8e8e93; }
+    .callout { background: #0a1f3f; border-color: #1c3a66; color: #f2f2f7; }
+    hr { border-top-color: #2c2c2e; }
+  }
+</style>
+</head>
+<body>
+  <h1>隐私政策</h1>
+  <p class="meta">适用产品：家保盒（HomeProof）· 生效日期：2026 年 6 月 2 日 · 最后更新：2026 年 6 月 2 日</p>
+
+  <p class="lead">家保盒是一款纯本地的家庭票据、保修卡、说明书与保修提醒管理工具。我们在设计上坚持隐私优先：<strong>你的全部数据只保存在你的设备上</strong>，无需账号，也不会上传到任何服务器。</p>
+
+  <div class="callout">
+    <strong>一句话概述：</strong>家保盒不收集、不存储于云端、不传输你的任何个人数据。所有信息（含照片、票据、说明书、序列号、文字识别结果）都仅保存在你的 iPhone / iPad 本机。
+  </div>
+
+  <h2>1. 我们收集哪些信息</h2>
+  <p>我们<strong>不收集任何个人身份信息</strong>。家保盒没有用户账号系统，不要求注册或登录，也不会向我们或任何第三方发送你的资料。</p>
+  <p>你在 App 中创建的内容——例如物品名称、品牌、型号、序列号、购买日期、价格、店铺、备注，以及你导入或扫描的照片、发票、保修卡、说明书等——均由你主动录入，并<strong>仅存储在你的设备本地</strong>。开发者无法访问这些内容。</p>
+
+  <h2>2. 设备权限的用途</h2>
+  <p>家保盒在你使用相关功能时，才会请求以下系统权限，且所有处理都在本机完成：</p>
+  <ul>
+    <li><strong>相机</strong>：用于扫描发票、保修卡、说明书和商品铭牌。拍摄内容仅保存在本机，不会上传。</li>
+    <li><strong>照片</strong>：用于导入你主动选择的图片。我们通过系统图片选择器读取，仅能访问你选中的照片，不会读取你的整个相册。</li>
+    <li><strong>通知</strong>：用于在保修到期前于本机发送提醒。提醒完全在设备本地生成与调度，不使用远程推送服务。</li>
+    <li><strong>面容 ID / 触控 ID（生物识别）</strong>：用于可选的隐私锁，保护本机保存的资料。生物识别由 iOS 系统的安全区域处理，<strong>家保盒不会接触、读取或存储你的生物特征数据</strong>。</li>
+  </ul>
+  <p>你可以随时在系统「设置」中更改或撤销这些权限。撤销后相关功能可能不可用，但不影响你已保存数据的安全。</p>
+
+  <h2>3. 文字识别（OCR）</h2>
+  <p>家保盒使用 Apple 提供的设备端 Vision 框架进行文字识别。<strong>识别全过程在你的设备本地完成</strong>，识别文本不会被上传或共享。识别结果仅作为候选项供你确认，是否保存由你决定。</p>
+
+  <h2>4. 数据的存储与安全</h2>
+  <ul>
+    <li>所有数据保存在 App 的本机沙盒目录中，使用系统数据库（Core Data）与文件存储。</li>
+    <li>附件文件启用了 iOS 文件保护（File Protection），在设备锁定时受系统加密保护。</li>
+    <li>你可开启隐私锁，要求通过面容 ID、触控 ID 或设备密码后才能打开 App。</li>
+    <li>我们仅使用 Apple 操作系统内置的加密与安全能力，未实现任何自定义加密算法。</li>
+  </ul>
+
+  <h2>5. 数据的共享与出售</h2>
+  <p>我们<strong>不会出售、出租或共享</strong>你的任何数据。由于数据从不离开你的设备，我们在技术上也无法访问或转让它。家保盒不集成任何广告、统计、追踪或社交分享类第三方 SDK。</p>
+
+  <h2>6. 第三方组件</h2>
+  <p>家保盒在发布版本中仅使用一个第三方开源组件 <strong>SnapKit</strong>，用于界面布局排版。它不联网、不收集数据、不包含广告或追踪能力。除此之外，App 不包含任何第三方数据收集组件。</p>
+
+  <h2>7. 数据保留与删除</h2>
+  <p>你的数据会一直保留在本机，直到你主动删除。你可以在 App 内删除单个物品及其附件，或通过删除 App 一次性清除全部本地数据。删除即从设备移除，我们处无任何备份可供恢复。</p>
+
+  <h2>8. 儿童隐私</h2>
+  <p>家保盒不面向儿童设计，也不会有意收集任何人的个人信息（包括儿童）。由于本 App 不收集数据，不存在针对儿童的数据收集行为。</p>
+
+  <h2>9. 你的权利</h2>
+  <p>根据《通用数据保护条例》（GDPR）、《加州消费者隐私法》（CCPA）等法规，你通常享有访问、更正、删除个人数据及拒绝出售等权利。由于家保盒<strong>不收集也不持有</strong>你的任何个人数据，这些数据始终完全由你在本机掌控：你可随时在 App 内查看、修改和删除。</p>
+
+  <h2>10. 国际用户</h2>
+  <p>家保盒面向全球用户发布。由于数据仅存储在你的设备本地、不进行跨境传输，本 App 不涉及个人数据的国际传输。</p>
+
+  <h2>11. 本政策的变更</h2>
+  <p>若功能调整导致隐私实践发生变化，我们会更新本政策并修改顶部的「最后更新」日期。重大变更会在 App 更新说明中提示。</p>
+
+  <h2>12. 联系我们</h2>
+  <p>如对本隐私政策有任何疑问，请联系：<a href="mailto:suwenxiao521@gmail.com">suwenxiao521@gmail.com</a></p>
+
+  <hr>
+  <footer>
+    本页内嵌于家保盒 App 内，可离线查看；同一内容亦发布于公开网址，作为 App Store 要求的隐私政策链接。
+  </footer>
+</body>
+</html>
